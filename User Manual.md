@@ -22,7 +22,6 @@
 > #### Save on close
 > * This determines whenever to automatically save the program's current state to the settings on close
 
-
 # Main tab
 > * This tab is is to configure what microphone and how you wanna send process and masked audio back to vrhchat
 >
@@ -151,9 +150,9 @@
 > > * Displays the Current live Output value
 > >
 > ### Hide masks
-> * Hides Every Masks that configured in the main tab
+> * Hides Every Masks that configured in the [Main tab](#main-tab)
 
-# Current Avatar
+# Current Avatar tab
 > This tab (when enabled) will try to fetch the currently worn avatar's data to help you add parameters to sync.
 > > The program will attempt to read the latest game logs and osc folders from "%userprofile%\appdata\locallow\VRChat\VRChat" and retreive data such as:
 > > * Avatar's input and output parameters
@@ -167,7 +166,7 @@
 > > ### Record
 > > * When pressing this button, it will start recording for 7 seconds. during this period the program will attempt to find avatar parameters that change during this duration. when recording is done it will automatically switch to the recorded tab
 > > ### Auto-Add
-> > * When Enabled this will Automatically add the the Recorded parameters to the main tab without having to click the add to "Add to main tab" Button
+> > * When Enabled this will Automatically add the the Recorded parameters to the [Main tab](#main-tab) without having to click the add to "Add to [Main tab](#main-tab)" Button
 > > ### Fetch values
 > > * This will update each parameter's value in the list to its current value
 > > ### Search Parameter
@@ -186,8 +185,8 @@
 > > * These are the parameters that got detected during a parameter change recording
 >
 > # Parameter
-> > ### Add to main tab
-> > * Adds the current address to the main tab 
+> > ### Add to [Main tab](#main-tab)
+> > * Adds the current address to the [Main tab](#main-tab) 
 > > ### Copy to clipboard
 > > * Copies the Current Address to the clipboard
 > > ### Address
@@ -198,7 +197,7 @@
 > > * The current parameter's value
 > >   * This can be updated with the "Fetch Values button" 
 
-# AudioLink to OSC
+# AudioLink to OSC tab
 > * This is a way to capture data from vrchat worlds with intergrated audiolink and reused that data and sync avatar parameters with them
 >   * NOTE: This requires a prefab to properly function
 >   * NOTE: This requires the current avatar to be enabled to check if the AudioLinkOSC Prefab is enabled
@@ -214,7 +213,7 @@
 > ## General Settings
 > > ### Enable
 > > * Enabling this will enable the program to look for the AudioLinkOSC prefab and check if its enabled on you current avatar. Once found you will see a 128 by 64 sized block
-> >   * If the program cant find the prefab enabled it will send a Error message to The logging tab
+> >   * If the program cant find the prefab enabled it will send a Error message to The [logging tab](#logging-tab)
 > > ### Add new element
 > > * Adds a new element to the list
 >
@@ -249,20 +248,20 @@
 > * This is determines where the all the data should be sent to
 > ## Config
 > > ### OSC Sending Address
-> > * The addreess of where the Data from the Main and the AudioLinktoOSC tabs should be sent
+> > * The addreess of where the Data from the [Main tab](#main-tab) and the [AudioLinktoOSC](#audiolink-to-osc-tab) tabs should be sent
 > > ### OSC Sending Port
-> > * The port of where the Data from the Main and the AudioLinktoOSC tabs should be sent
+> > * The port of where the Data from the [Main tab](#main-tab) and the [AudioLinktoOSC](#audiolink-to-osc-tab) tabs should be sent
 > > ### OSC Listening Address
-> > * The address of where to listen to the data for the Current Avatar tab
+> > * The address of where to listen to the data for the [Current Avatar tab](#current-avatar-tab)
 > > ### OSC Listening Port
-> > * The port of where to listen to the data for the Current Avatar tab
+> > * The port of where to listen to the data for the [Current Avatar tab](#current-avatar-tab)
 
-# Logging
+# Logging tab
 > * This tab logs most stuff so you can better understand whats happening in the program
 
 # Info
 > > ### Patch notes
-> > * Patch notes from ev ery release since version 1.0
+> > * Patch notes from every release since version 1.0
 > > ### Guides 
 > > * In heres the is a bunch of frequencies you can expermiment with
 > > ### Credits 
