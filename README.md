@@ -15,7 +15,7 @@ reaction OSC SYNC audio to parameter sync vrchat avatar to music
 
 # Startup
 > * The program will attempt to create a config file which will store settings and configurations
-> * The program will check that your license key on each startup
+> * The program will check that your license key is valid on each startup
 
 # Verification
 > * This screen will aks you from your email and your provided license key that you received when making your OSCAudioLink purchase
