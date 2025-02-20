@@ -11,9 +11,8 @@ reaction OSC SYNC audio to parameter sync vrchat avatar to music
 * OSCAudioLink is a utility program that process live audio devices and send filtered signals back to vrchat to control avatar parameters
 * * You can also read audiolink data and reuse it for avatar parameters
 
-# Glossary
-
 # Startup
+> * The program will check if youre running the latest version. if youre not you will be promted to update to the latest version
 > * The program will attempt to create a config file which will store settings and configurations
 > * The program will check that your license key is valid on each startup
 
