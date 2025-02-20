@@ -3,12 +3,27 @@
 * OSCAudioLink is a utility program that process live audio devices and send filtered signals back to vrchat to control avatar parameters
   * You can also read audiolink data and reuse it for avatar parameters
 
+### Refrences
+> * [Startup](#startup)
+> * [Verification](#verification)
+> * [Global Buttons](#global-buttons)
+> * [Main tab](#main-tab)
+> * [Preview tab](#preview-tab)
+> * [Current Avatar tab](#current-avatar-tab)
+> * [Audiolink to OSC tab](#audiolink-to-osc-tab)
+> * [OSC config tab](#osc-config-tab)
+> * [Logging tab](#logging-tab)
+> * [Info tab](#info-tab)
+
+
 # Startup
+> * The are things that will happen every time you start up the progran
 > * The program will check if youre running the latest version. if youre not you will be promted to update to the latest version
-> * The program will attempt to create a config file which will store settings and configurations
+> * The program will attempt to create a config file which will store settings and configurations. if it already exists it will read from it
 > * The program will check that your license key is valid on each startup
 
 # Verification
+> * This screen is to verify you have a legit copy of OSCAudioLink
 > * This screen will aks you from your email and your provided license key that you received when making your OSCAudioLink purchase
 >   * This screen will save your credentials for later use and long as program has saved properly
 
@@ -244,7 +259,7 @@
 > > ### Multiplier
 > > * This is what the Output value should be multiplied with before (note: doesnt overstep the End value)
 
-# OSC Config
+# OSC Config tab
 > * This is determines where the all the data should be sent to
 > ## Config
 > > ### OSC Sending Address
@@ -259,7 +274,7 @@
 # Logging tab
 > * This tab logs most stuff so you can better understand whats happening in the program
 
-# Info
+# Info tab
 > > ### Patch notes
 > > * Patch notes from every release since version 1.0
 > > ### Guides 
