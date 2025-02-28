@@ -282,3 +282,22 @@
 > > * In heres the is a bunch of frequencies you can expermiment with
 > > ### Credits 
 > > * in this tab there a links to the store page, discord server, and SophiePastel'z website :3
+
+# Others
+>
+> ## How to set up with [VOR (Vrhchat OSC Router)](https://github.com/SutekhVRC/VOR)
+> VOR allows you to have multiple apps listen to vrchat
+>
+> This is just an example way of does this
+>
+> * Go to OSCAudioLink's [OSC Config tab](#osc-config-tab) and configure the [OSC Listening Port](#osc-listening-port) to be 9501 and the [OSC Listening Address](#osc-listening-address) to be 127.0.0.1
+> * Now go to [VOR (Vrhchat OSC Router)](https://github.com/SutekhVRC/VOR) 
+> * Go to the "Apps" Tab
+> * Click "Add new VOR app"
+> * Set "App Name" to "OSCAudioLink"
+> * Set "App Host" to "127.0.0.1"
+> * Set "App Port" to "9501"
+> * Click "Save"
+> * Go to the "Main" tab
+> * Click "Start"
+> * That should be it. Optionally click on the "debug" to see if your receving anything from OSCAudioLink
