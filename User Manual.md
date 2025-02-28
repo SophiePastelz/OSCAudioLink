@@ -4,6 +4,9 @@
 * OSCAudioLink is a utility program that process live audio devices and send filtered signals back to vrchat to control avatar parameters
   * You can also read audiolink data and reuse it for avatar parameters
 
+* General Knowledge
+  * If you hover over most elements, there will be a tooltip saying what they do
+
 ### Refrences
 > * [Startup](#startup)
 > * [Verification](#verification)
@@ -15,6 +18,7 @@
 > * [OSC config tab](#osc-config-tab)
 > * [Logging tab](#logging-tab)
 > * [Info tab](#info-tab)
+> * Config file
 
 
 # Startup
