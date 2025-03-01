@@ -142,6 +142,7 @@
 
 # Preview Tab
 > * This tab displays the live audio device's audio wave frquencies and where the mask's are configured on the graph
+> * its important for visalizing configured elements and how they to the inputted audio
 >
 > # axes
 > > Y Axis 
