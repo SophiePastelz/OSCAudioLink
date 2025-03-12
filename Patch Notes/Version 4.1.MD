@@ -1,5 +1,5 @@
 ## Tabs
-* Make the logging tab be default colored instead of just white
+* Made the logging tab be default colored instead of just white
 
 ## Startup
 * Reverted back the preventer for 2 programs running at once
