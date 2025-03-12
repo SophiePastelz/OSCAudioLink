@@ -1,0 +1,1 @@
+* When loading in the config file. loading elements with missing values no longer causes the the program to crash (making it unusable) and in most cases delete your config file to fix it. now it replaces the missing value with hardcoded defaults.

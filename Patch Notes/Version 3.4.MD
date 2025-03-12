@@ -1,0 +1,1 @@
+* Added a auto-updater on startup. it will fetch the latest version if there is a update available

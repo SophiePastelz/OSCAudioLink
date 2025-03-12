@@ -1,0 +1,1 @@
+* Fixed a bug in the verfication menu where you chouldnt continue

@@ -1,0 +1,1 @@
+* Fix a bug where all the preview masks whould get disabled if the one before it was disabled

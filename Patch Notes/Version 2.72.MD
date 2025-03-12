@@ -1,0 +1,1 @@
+* Fixed cloning elements placing themselves at the bottom every time

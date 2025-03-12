@@ -1,0 +1,1 @@
+* Removed `innerheight` due to it making things less accurate
