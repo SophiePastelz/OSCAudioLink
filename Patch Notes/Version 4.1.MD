@@ -10,7 +10,7 @@
 * The preview tab will now load in elements properly every time the tab is selected
 
 ## Patch notes
-* Patch notes are no longer stored in the program and instead stored on github
+* Patch notes are no longer stored in the program and instead stored on github and will be loaded every time the program is started in the background
 
 ## Credits tab
 * Fixed the broken image
